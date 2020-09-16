@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <MyButton></MyButton>
+    <MyButton :greet="greetText" @click="onMyButtonClicked"></MyButton>
   </div>
 </template>
 
@@ -13,5 +13,11 @@ import MyButton from "@/components/MyButton.vue";
     MyButton
   }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  public greetText: string = "HelloWorld";
+
+  public onMyButtonClicked() {
+    this.greetText = "こんちゃ";
+  }
+}
 </script>
