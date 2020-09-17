@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <p>{{ greetText }}</p>
     <MyButton :greet="greetText" @click="onMyButtonClicked"></MyButton>
   </div>
 </template>
