@@ -1,32 +1,41 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+      <div href="#" class="navbar-brand">
+        <img src="./assets/hikari-logo.png" width="50" height="50" alt />
+        ヒカリの部屋
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#nav-items"
+        aria-controls="nav-items"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-nav navbar-collapse collapse" id="nav-items">
+        <a href="#" class="nav-item nav-link">ヒカリとは</a>
+        <a href="#" class="nav-item nav-link">最新動画</a>
+        <a href="#" class="nav-item nav-link">研究実績</a>
+      </div>
+    </nav>
+
+    <div class="body" align="center">
+      <img src="./assets/hikari-logo.png" width="500" height="500" alt />
+      <h1>ハッピーバースデーヒカリ！！</h1>
+      <h2>ヒカリのげぇむじっきょぉ</h2>
     </div>
-    <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.navbar {
+  border-bottom: 4px solid #b4b4b4;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.body {
+  margin-top: 5vh;
 }
 </style>

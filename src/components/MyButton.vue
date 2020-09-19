@@ -7,15 +7,18 @@ import { Component, Emit, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class MyButton extends Vue {
+  public count: number = 0;
+
   @Prop()
   public greet?: string;
 
   @Emit()
-  public click() {}
+  public click(count: number) {}
 
   public onClick() {
-    alert(this.greet);
-    this.click();
+    //alert(this.greet);
+    this.count++;
+    this.click(this.count);
   }
 }
 </script>
