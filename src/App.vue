@@ -19,8 +19,7 @@
 
       <div class="navbar-nav navbar-collapse collapse" id="nav-items">
         <a href="#about" class="nav-item nav-link">ヒカリとは</a>
-        <a href="#" class="nav-item nav-link">最新動画</a>
-        <a href="#" class="nav-item nav-link">研究実績</a>
+        <a href="#video" class="nav-item nav-link">最新動画</a>
       </div>
     </nav>
 
@@ -46,6 +45,18 @@
             たとえ友人に「気持ち悪い」「直視できない」と言われても…彼は止まらない…！
           </p>
         </div>
+        <h3 id="video">最新動画</h3>
+        <div align="center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EvpX5b7QIAE"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div></div>
       </div>
     </div>
   </div>
@@ -75,7 +86,8 @@
   padding: 5vh 10vh 0 10vh;
 }
 
-.about-text {
-  border-top: 4px dashed orange;
+h3 {
+  padding: 5vh 0 0 0;
+  border-bottom: 4px dashed orange;
 }
 </style>
