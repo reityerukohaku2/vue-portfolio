@@ -28,9 +28,10 @@
         <img src="./assets/hikari-logo.png" width="500" height="500" alt />
         <div class="page-title">
           <h1>
-            ハッピーバースデーヒカリ！！
+            ハッピーバースデーヒカリ！！<br />
+            ヒカリの部屋
           </h1>
-          <h2>ヒカリのげぇむじっきょぉ</h2>
+          <h2>～ヒカリのげぇむじっきょぉ～</h2>
         </div>
       </div>
 
