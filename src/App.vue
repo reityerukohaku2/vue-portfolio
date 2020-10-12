@@ -19,11 +19,12 @@
 
       <div class="navbar-nav navbar-collapse collapse" id="nav-items">
         <a href="#about" class="nav-item nav-link">ヒカリとは</a>
-        <a href="#video" class="nav-item nav-link">最新動画</a>
+        <router-link to="/videos">動画一覧</router-link>
       </div>
     </nav>
 
     <div class="body" align="center">
+      <router-view></router-view>
       <div class="top">
         <img src="./assets/hikari-logo.png" width="500" height="500" alt />
         <div class="page-title">
