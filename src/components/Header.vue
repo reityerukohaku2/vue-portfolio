@@ -53,22 +53,4 @@
   font-size: 2vh;
 }
 
-.body {
-  margin: 0 30vh;
-  background-color: white;
-}
-
-.page-title {
-  padding: 5vh 0;
-  background-color: rgb(219, 219, 219);
-}
-
-.about {
-  padding: 5vh 10vh 0 10vh;
-}
-
-h3 {
-  padding: 5vh 0 0 0;
-  border-bottom: 4px dashed orange;
-}
 </style>

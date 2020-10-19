@@ -1,9 +1,41 @@
 h1 {
+    font-size: medium;
+}
+
+h2 {
     font-size: small;
+}
+
+.about {
+    padding: 5vw 10vh 0 10vh;
+}
+
+.body {
+    margin: 0 20vw;
+    background-color: white;
+}
+
+.page-title {
+    padding: 5vw 0;
+    background-color: rgb(219, 219, 219);
+}
+
+h3 {
+    padding: 5vw 0 0 0;
+    border-bottom: 4px dashed orange;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: large;
+    }
+    h2 {
+        font-size: medium;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     h1 {
-        font-size: large;
+        font-size: 30px;
     }
 }
