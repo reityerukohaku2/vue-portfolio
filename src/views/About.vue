@@ -16,7 +16,6 @@
 <script>
 import { Component, Vue } from "vue-property-decorator";
 
-
 //コミット用コメント
 @Component
 export default class About extends Vue {}
