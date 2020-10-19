@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="top">
-      <img src="../assets/hikari-logo.png" width="500" height="500" alt />
+      <img src="../assets/hikari-logo.png" alt />
       <div class="page-title">
         <h1>
           ハッピーバースデーヒカリ！！<br />
@@ -19,3 +19,10 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class Home extends Vue {}
 </script>
+
+<style scoped>
+img {
+  width: 30vw;
+  height: 30vw;
+}
+</style>

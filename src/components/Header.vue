@@ -35,6 +35,10 @@
   color: white;
 }
 
+.navbar-nav {
+  margin-left: 1vw;
+}
+
 .title:hover {
   color: white;
   text-decoration: none;
