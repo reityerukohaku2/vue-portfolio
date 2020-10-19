@@ -1,8 +1,10 @@
 <template>
   <nav class="navbar navbar-dark bg-dark navbar-expand-md">
     <div href="#" class="navbar-brand">
-      <img src="../assets/hikari-logo.png" width="50" height="50" alt />
-      ヒカリの部屋
+      <router-link to="/">
+        <img src="../assets/hikari-logo.png" width="50" height="50" alt />
+        ヒカリの部屋
+      </router-link>
     </div>
 
     <button
@@ -17,7 +19,10 @@
     </button>
 
     <div class="navbar-nav navbar-collapse collapse" id="nav-items">
-      <router-link to="/" class="nav-item nav-link">ヒカリとは</router-link>
+      <router-link to="/" class="nav-item nav-link">ホーム</router-link>
+      <router-link to="/about" class="nav-item nav-link"
+        >ヒカリとは</router-link
+      >
       <router-link to="/videos" class="nav-item nav-link">動画一覧</router-link>
       <router-link to="/twitterTestSite" class="nav-item nav-link"
         >Twitter試験場</router-link
