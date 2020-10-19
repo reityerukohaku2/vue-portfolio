@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-    <div href="#" class="navbar-brand">
-      <router-link to="/">
+    <div href="#" class="title">
+      <router-link to="/" class="title">
         <img src="../assets/hikari-logo.png" width="50" height="50" alt />
         ヒカリの部屋
       </router-link>
@@ -19,7 +19,6 @@
     </button>
 
     <div class="navbar-nav navbar-collapse collapse" id="nav-items">
-      <router-link to="/" class="nav-item nav-link">ホーム</router-link>
       <router-link to="/about" class="nav-item nav-link"
         >ヒカリとは</router-link
       >
@@ -32,6 +31,15 @@
 </template>
 
 <style>
+.title {
+  color: white;
+}
+
+.title:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar {
   border-bottom: 4px solid #b4b4b4;
 }
