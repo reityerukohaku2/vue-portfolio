@@ -52,5 +52,4 @@
   background-color: rgba(255, 153, 0, 0.253);
   font-size: 2vh;
 }
-
 </style>
