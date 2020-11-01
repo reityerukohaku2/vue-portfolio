@@ -23,9 +23,6 @@
         >ヒカリとは</router-link
       >
       <router-link to="/videos" class="nav-item nav-link">動画一覧</router-link>
-      <router-link to="/twitterTestSite" class="nav-item nav-link"
-        >Twitter試験場</router-link
-      >
     </div>
   </nav>
 </template>
@@ -46,10 +43,5 @@
 
 .navbar {
   border-bottom: 4px solid #b4b4b4;
-}
-
-.all {
-  background-color: rgba(255, 153, 0, 0.253);
-  font-size: 2vh;
 }
 </style>

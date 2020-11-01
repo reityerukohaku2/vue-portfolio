@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-wrapper">
     <div class="top">
       <img src="../assets/hikari-logo.png" alt />
       <div class="page-title">
@@ -24,5 +24,11 @@ export default class Home extends Vue {}
 img {
   width: 30vw;
   height: 30vw;
+}
+
+.home-wrapper {
+  flex: 1;
+  margin: 0 10vw;
+  background-color: white;
 }
 </style>

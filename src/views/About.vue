@@ -1,5 +1,5 @@
 <template>
-  <div class="about" id="about" align="left">
+  <div class="about-wrapper" id="about" align="left">
     <h3>ヒカリとは</h3>
     <div class="about-text">
       <p>
@@ -20,3 +20,12 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class About extends Vue {}
 </script>
+
+<style scoped>
+.about-wrapper {
+  flex: 1;
+  margin: 0 10vw;
+  background-color: white;
+  padding: 0 4vw;
+}
+</style>

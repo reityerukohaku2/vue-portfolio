@@ -7,6 +7,7 @@
       />
     </head>
     <Header />
+
     <div class="body" align="center">
       <router-view></router-view>
     </div>
@@ -26,3 +27,20 @@ export default {
   }
 };
 </script>
+
+<style>
+.all {
+  background-color: rgba(255, 153, 0, 0.253);
+  font-size: 2vh;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+  flex: 1;
+}
+</style>
