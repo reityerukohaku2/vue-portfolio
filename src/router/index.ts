@@ -13,17 +13,19 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: Home,
   },
   {
     path: "/about",
     name: "About",
-    component: () => import("../views/About.vue")
+    component: () => import("../views/About.vue"),
+    meta: { title: 'ヒカリとは'}
   },
   {
     path: "/videos",
     name: "Videos",
-    component: () => import("../views/Videos.vue")
+    component: () => import("../views/Videos.vue"),
+    meta: { title: '動画一覧'}
   },
   {
     path: "/twitterTestSite",
