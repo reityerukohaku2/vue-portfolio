@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-xs bg-dark">
+  <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
     <div href="#" class="title">
       <router-link to="/" class="title">
         <img src="../assets/hikari-logo.png" width="50" height="50" alt />
