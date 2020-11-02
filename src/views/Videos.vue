@@ -44,7 +44,7 @@ export default class Videos extends Vue {}
   flex: 1;
   margin: 0 10vw;
   background-color: white;
-  padding: 0 4vw;
+  padding: 0 4vw 4vh 4vw;
 }
 
 h2 {

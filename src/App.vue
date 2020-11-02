@@ -4,7 +4,9 @@
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        title="ヒカリの部屋"
       />
+      <link rel="shortcut icon" href="favicon.ico" />
     </head>
     <Header />
 
@@ -29,9 +31,7 @@ import Footer from "./components/Footer.vue";
   }
 })
 export default class App extends Vue {
-  private CreateTitle(routeInstance: Array<RouteConfig>) {
-    
-  }
+  private CreateTitle(routeInstance: Array<RouteConfig>) {}
 }
 </script>
 

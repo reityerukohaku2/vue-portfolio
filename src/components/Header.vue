@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+  <nav class="navbar navbar-dark navbar-expand-xs bg-dark">
     <div href="#" class="title">
       <router-link to="/" class="title">
         <img src="../assets/hikari-logo.png" width="50" height="50" alt />
@@ -11,14 +11,14 @@
       class="navbar-toggler"
       type="button"
       data-toggle="collapse"
-      data-target="#nav-items"
-      aria-controls="nav-items"
+      data-target="#navmenu1"
+      aria-controls="navmenu1"
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="navbar-nav navbar-collapse collapse" id="nav-items">
+    <div class="navbar-nav navbar-collapse collapse" id="navmenu1">
       <router-link to="/about" class="nav-item nav-link"
         >ヒカリとは</router-link
       >
